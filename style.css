@@ -1,0 +1,263 @@
+body {
+    margin: 0;
+    /*обнуляем внешний отсуп*/
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+/* компенсирует отступ пэдинг и ширину границы*/
+
+.karkas {
+    width: 900px;
+    height: 500px;
+    /*background: green;*/
+    margin: auto;
+}
+
+.otstup {
+    width: 900px;
+    height: 100px;
+    background: #1e1e1e;
+}
+
+.header {
+    width: 900px;
+    height: 95px;
+    background: url('images/header_bg.png');
+    position: relative;
+    border-bottom: 1px solid gray;
+}
+
+.logo {
+    width: 132px;
+    height: 66px;
+    background: url('images/header_logo.png');
+    position: absolute;
+    left: 10px;
+    top: 5px;
+}
+
+.menu {
+    width: 750px;
+    height: 20px;
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+}
+
+.menu_item {
+    width: 122px;
+    height: 20px;
+    float: left;
+    text-align: center;
+    line-height: 20px;
+    /*вертикальное центрирование*/
+    font-family: Myriad Pro;
+    font-size: 16px;
+}
+
+.menu span {
+    float: left;
+    color: #949494;
+}
+
+.left_content {
+    width: 234px;
+    /*height: 500px;*/
+    /*background: orange;*/
+    float: left;
+    padding-top: 20px;
+}
+
+.right_content {
+    width: 666px;
+    /* height: 500px;*/
+    /*background: blue;*/
+    float: left;
+    padding-top: 20px;
+}
+
+.Our_Services {
+    width: 194px;
+    height: 303px;
+    /* background: green;*/
+    margin: auto;
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.Our_Services_heder {
+    width: 192px;
+    height: 40px;
+    /*background: rgb(255, 255, 255);*/
+    padding-left: 30px;
+    font-family: Myriad Pro;
+    font-size: 20px;
+    padding-top: 11px;
+    color: grey;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.Our_Services_heder::before {
+    content: url(images/leftbar_header_icon.png);
+    position: absolute;
+    left: 12px;
+    top: 10px;
+}
+
+.Our_Services_heder span {
+    color: rgb(92, 128, 247);
+}
+
+.Our_Services_button {
+    width: 164px;
+    height: 32px;
+    /* background: rgb(255, 255, 255);*/
+    font-family: Myriad Pro;
+    margin: auto;
+    text-align: center;
+    padding-top: 6px;
+}
+
+.underline {
+    border-bottom: 1px solid gray;
+}
+
+.Latest_News_button {
+    width: 192px;
+    height: 54px;
+    /*background: rgb(53, 70, 230);*/
+    font-family: Myriad Pro;
+    margin: auto;
+    text-align: center;
+    padding-top: 6px;
+    font-family: Verdana;
+    font-size: 11px;
+}
+
+.Latest_News_button span {
+    color: #8fc20c;
+}
+
+.Newslettr {
+    width: 192px;
+    height: 130px;
+    margin: auto;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    text-align: center;
+    position: relative;
+}
+
+.Newslettr_heder {
+    width: 190px;
+    height: 40px;
+    background: #92c50f;
+    border-radius: 5px 5px 0 0;
+    font-size: 20px;
+    padding-top: 8px;
+    color: white;
+}
+
+.email {
+    font-family: Myriad Pro;
+    font-size: 14px;
+    padding-top: 11px;
+}
+
+.Newslettr input {
+    width: 150px;
+    height: 23px;
+    background: #d0e59b;
+    border: 1px solid gray;
+    margin-left: -15px;
+    margin-top: 10px;
+    position: relative;
+}
+
+.Newslettr::after {
+    content: url(images/arrow.png);
+    position: absolute;
+    right: 10px;
+    bottom: 26px;
+}
+
+
+/* правая сторона*/
+
+.kartinka {
+    width: 650px;
+    height: 258px;
+    background: url('images/content_header_bg.png');
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.Sample_Service {
+    width: 183px;
+    height: 30px;
+    border-radius: 5px 5px 0 0;
+    background: #92c50f;
+    top: 10px;
+}
+
+.Sample_Service_heder {
+    font-size: 16px;
+    color: white;
+    font-family: Myriad Pro;
+    margin: auto;
+    text-align: center;
+    padding-top: 6px;
+    font-family: Verdana;
+    font-size: 11px;
+}
+
+.text_right {
+    width: 652px;
+    height: 460px;
+    border: 1px solid gray;
+    margin-top: 5px;
+}
+
+.Business_Consulting {
+    width: 200px;
+    height: 20px;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 30px;
+    font-family: Myriad Pro;
+    color: #387aa0;
+}
+
+.Business_Consulting span {
+    color: #6a920f;
+}
+
+.liniya {
+    width: 652px;
+    height: 3px;
+    background: #88a954;
+}
+
+.Nullam_sapien {
+    margin-left: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    color: #797777;
+    margin-bottom: 30px;
+}
+
+.Sed_sed {
+    margin-left: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
